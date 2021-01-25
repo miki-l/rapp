@@ -53,7 +53,7 @@ body {
     justify-items: center;
 }
 .greeding {
-    font-size: 0.8rem;
+    font-size: 4rem;
     color: #FFF2F2;
     font-style:italic;
     letter-spacing: 0.4rem;
@@ -61,7 +61,6 @@ body {
 }
 .title {
     align-self: center;
-    font-size: 1.4rem;
     color: #ffffff;
     margin: 3.4rem;
     font-style:italic;
@@ -213,8 +212,8 @@ footer {
 
     .greeding {
         position: absolute;
-        margin: 0% 32% ;
-        font-size: 0.8rem;
+        margin: 0% 30% ;
+        font-size: 1rem;
         color: #FFF2F2;
         font-style:italic;
         letter-spacing: 0.4rem;
@@ -223,7 +222,7 @@ footer {
     .title {
         position: absolute;
         margin: 80% 26% 20%;
-        font-size: 0.8rem;
+        font-size: .6rem;
         color: #FFF2F2;
         font-style:italic;
         letter-spacing: 0.4rem;
