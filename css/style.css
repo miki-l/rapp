@@ -213,19 +213,540 @@ footer {
     
   }
   
-  /********** Medium devices only **********/
+  /********** Medium devices only (ipadpro) **********/
   @media (min-width: 992px) and (max-width: 1199px) {
-   
-  }
-  
-  /********** Small devices only **********/
-  @media (min-width: 768px) and (max-width: 991px) {
+    #navbar {  
+        display: flex;
+        justify-content: center;
+        background-color:#000000;
+        box-shadow: 0px 0px 6px #000 ;
+        width: 100%;
+        height: 60px;
+     }
+     .nav {
+        display: flex;
+        justify-content: space-around;
+        width: 30rem;
+    }
+    .nav a {
+        margin-top: .8rem;
+        list-style: none;
+        text-decoration: none;
+        font-size: 1.8rem;
+        text-shadow:1px 2px 2px #000 ;
+        color: #ffffff;
+    }
+    .des {
+        background-image: url("../image/18.jpg");
+        background-position: center;
+        background-size: 64rem;
+        overflow: hidden;
+        width: 100%;
+        height: 40rem;
+        overflow: hidden;
+    }
+    .desinfo{
+        text-align: center;
+        left: 10%;
+        margin-top: 20%;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
+    .des2 {
+        background-image: url("../image/11.jpg");
+        background-position: bottom;
+        background-size: 64rem;
+        overflow: hidden;
+        width: 100%;
+        height: 40rem;
+        overflow: hidden;
+    }
+    .des2info a {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 13em;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
     
+    /* intro */
+    .greeding {
+        position: absolute;
+        margin: 0% 39% ;
+        font-size: 1rem;
+        color: #FFF2F2;
+        font-style:italic;
+        letter-spacing: 0.4rem;
+        text-shadow:1px 2px 2px #000 ;
+    }
+    .title {
+        position: absolute;
+        margin: 80% 26% 20%;
+        font-size: .6rem;
+        color: #FFF2F2;
+        font-style:italic;
+        letter-spacing: 0.4rem;
+    }
+
+    .cake{
+        background-image: url("../image/28.jpg");
+        background-position: center;
+        background-size: 60rem;
+        overflow: hidden;
+        border: 2px solid #000;
+        width: 100%;
+        height: 62.6rem;
+    }
+    /* end intro */
+
+    /* start homepage */
+    .content {
+        clear: both;
+        display: flex;
+        justify-content: space-around;
+    }
+    .menu {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 10px;
+        width: 40rem;
+        height: 24rem;
+        border-radius: 4%;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+    .menuimg {
+        background-image: url("../image/10.jpg");
+        background-position: top;
+        background-size: 54rem;
+        overflow: hidden;
+        width: 43rem;
+        height: 27.6rem;
+    }
+    .menuimg {
+        text-align: center;
+        color: rgb(43, 43, 43);
+        font-size: 3rem;
+    }
+   
+
+    .mng {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 10px;
+        width: 40rem;
+        height: 24rem;
+        border-radius: 4%;
+    }
+    .mng a{
+        text-decoration: none;
+    }
+    .mngimg{
+        background-image: url("../image/12.jpg");
+        background-position: top;
+        background-size: 54rem;
+        overflow: hidden;
+        width: 43rem;
+        height: 27.6rem;
+    }
+    .mngimg {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+    }
+
+    .open {
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        height: 68rem !important;
+        margin-bottom: 1.8rem;
+        text-align: center;
+    }
+    .aboutxt {
+        font-size: 2rem;
+        padding: 2% 10%;
+        letter-spacing: .8px;
+    }
+    
+    .notice {
+        background-color: rgb(230, 230, 230);
+        padding: 5% 10%;
+        text-align: center;
+        color: rgb(26, 26, 26);
+        font-size: 2rem;
+    }
+    
+    /* end homepage */
+
+
+/* start footer */
+footer {
+    margin-top: 2rem;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+    height: 10rem;
+    background-color: #222222;
+}
+    .footer-content {
+        display:flex;
+        justify-content: space-around;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+    .address, .info {
+        margin-top: 1.8rem;
+    }
+    .address p {
+        margin-bottom: 4px;
+    }
+    .info p {
+        margin-bottom: 4px;
+    }
+    .info a{
+        color: #ffffff;
+    }
+    /* End footer */
+
   }
   
-  /********** Extra small devices only **********/
-  @media (max-width: 767px) {
+  
+  /********** Small devices only  (ipad)**********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .des {
+        background-image: url("../image/18.jpg");
+        background-position: center;
+        background-size: 48rem;
+        overflow: hidden;
+        width: 100%;
+        height: 20rem;
+        overflow: hidden;
+    }
+    .desinfo{
+        text-align: center;
+        left: 10%;
+        margin-top: 20%;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
+    .des2 {
+        background-image: url("../image/11.jpg");
+        background-position: bottom;
+        background-size: 48rem;
+        overflow: hidden;
+        width: 100%;
+        height: 20rem;
+        overflow: hidden;
+    }
+    .des2info a {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 13em;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
+    
+    /* intro */
+    .greeding {
+        position: absolute;
+        margin: 0% 39% ;
+        font-size: 1rem;
+        color: #FFF2F2;
+        font-style:italic;
+        letter-spacing: 0.4rem;
+        text-shadow:1px 2px 2px #000 ;
+    }
+    .title {
+        position: absolute;
+        margin: 80% 26% 20%;
+        font-size: .6rem;
+        color: #FFF2F2;
+        font-style:italic;
+        letter-spacing: 0.4rem;
+    }
+
+    .cake{
+        background-image: url("../image/28.jpg");
+        background-position: center;
+        background-size: 38rem;
+        overflow: hidden;
+        border: 2px solid #000;
+        width: 100%;
+        height: 46.6rem;
+    }
+    /* end intro */
+
+    /* start homepage */
+    .content {
+        clear: both;
+        display: flex;
+        flex-flow: column;
+    }
+    .menu {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 5% 0 0 5%;
+        width: 90%;
+        height: 20rem;
+        border-radius: 4%;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+    .menuimg {
+        background-image: url("../image/10.jpg");
+        background-position: top;
+        background-size: 39rem;
+        overflow: hidden;
+        margin:2.4% 3%;
+        width: 40.6rem;
+        height: 18rem;
+    }
+    .menuimg {
+        text-align: center;
+        color: rgb(43, 43, 43);
+        font-size: 1.2rem;
+    }
    
+
+    .mng {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 5% 0 5% 5%;
+        width: 90%;
+        height: 20rem;
+        border-radius: 4%;
+    }
+    .mng a{
+        text-decoration: none;
+    }
+    .mngimg{
+        background-image: url("../image/12.jpg");
+        background-position: top;
+        background-size: 42rem;
+        overflow: hidden;
+        margin:2.4% 3%;
+        width: 40.6rem;
+        height: 18rem;
+    }
+    .mngimg {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+    }
+
+    .open {
+        background-color: rgb(230, 230, 230);
+        width: 100%;
+        height: 48rem !important;
+        margin-bottom: 1.8rem;
+        text-align: center;
+    }
+    .aboutxt {
+        font-size: 1.8rem;
+        padding: 5% 10%;
+        letter-spacing: .8px;
+    }
+    
+    .notice {
+        background-color: rgb(230, 230, 230);
+        padding: 5% 10%;
+        text-align: center;
+        color: rgb(26, 26, 26);
+        font-size: 1.8rem;
+    }
+    
+    /* end homepage */
+
+
+/* start footer */
+footer {
+    margin-top: 2rem;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+    height: 8rem;
+    background-color: #222222;
+}
+    .footer-content {
+        display:flex;
+        justify-content: space-around;
+        font-size: large;
+        color: #ffffff;
+    }
+    .address, .info {
+        margin-top: 1.8rem;
+    }
+    .address p {
+        margin-bottom: 4px;
+    }
+    .info p {
+        margin-bottom: 4px;
+    }
+    .info a{
+        color: #ffffff;
+    }
+    /* End footer */
+
+  }
+  
+  
+  /********** Extra small devices only (SURFACE DOU)**********/
+  @media (max-width: 767px) {
+
+    .des {
+        background-image: url("../image/18.jpg");
+        background-position: center;
+        background-size: 34rem;
+        overflow: hidden;
+        width: 100%;
+        height: 20rem;
+        overflow: hidden;
+    }
+    .desinfo{
+        text-align: center;
+        left: 10%;
+        margin-top: 20%;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
+    .des2 {
+        background-image: url("../image/11.jpg");
+        background-position: bottom;
+        background-size: 34rem;
+        overflow: hidden;
+        width: 100%;
+        height: 20rem;
+        overflow: hidden;
+    }
+    .des2info a {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 13em;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
+    
+    .greeding {
+        position: absolute;
+        margin: 0% 30% ;
+        font-size: 1rem;
+        color: #FFF2F2;
+        font-style:italic;
+        letter-spacing: 0.4rem;
+        text-shadow:1px 2px 2px #000 ;
+    }
+    .title {
+        position: absolute;
+        margin: 80% 26% 20%;
+        font-size: .6rem;
+        color: #FFF2F2;
+        font-style:italic;
+        letter-spacing: 0.4rem;
+    }
+
+    .cake{
+        background-image: url("../image/28.jpg");
+        background-position: center;
+        background-size: 33rem;
+        overflow: hidden;
+        border: 2px solid #000;
+        width: 100%;
+        height: 33rem;
+    }
+
+    /* start homepage */
+    .content {
+        clear: both;
+        display: flex;
+        flex-flow: column;
+    }
+    .menu {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 5% 0 0 5%;
+        width: 90%;
+        height: 18rem;
+        border-radius: 4%;
+    }
+    .menu a {
+        text-decoration: none;
+    }
+    .menuimg {
+        background-image: url("../image/10.jpg");
+        background-position: top;
+        background-size: 26rem;
+        overflow: hidden;
+        margin:2% 3%;
+        width: 28.5rem;
+        height: 16.8rem;
+    }
+    .menuimg {
+        text-align: center;
+        color: rgb(43, 43, 43);
+        font-size: 1.2rem;
+    }
+   
+
+    .mng {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 5% 0 5% 5%;
+        width: 90%;
+        height: 18rem;
+        border-radius: 4%;
+    }
+    .mng a{
+        text-decoration: none;
+    }
+    .mngimg{
+        background-image: url("../image/12.jpg");
+        background-position: top;
+        background-size: 29rem;
+        overflow: hidden;
+        margin:2% 3%;
+        width: 28.5rem;
+        height: 16.8rem;
+    }
+    .mngimg {
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 1.2rem;
+    }
+    
+    /* end homepage */
+
+
+/* start footer */
+footer {
+    margin-top: 2rem;
+    width: 100%;
+    bottom: 0%;
+    position: relative;
+    height: 8rem;
+    background-color: #222222;
+}
+    .footer-content {
+        display:flex;
+        justify-content: space-around;
+        font-size: large;
+        color: #ffffff;
+    }
+    .address, .info {
+        margin-top: 1.8rem;
+    }
+    .address p {
+        margin-bottom: 4px;
+    }
+    .info p {
+        margin-bottom: 4px;
+    }
+    .info a{
+        color: #ffffff;
+    }
+    /* End footer */
+
   }
   
   /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
