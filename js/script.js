@@ -1,3 +1,5 @@
+
+
 var slideIndex = 0;
 showSlides();
 
@@ -31,3 +33,12 @@ function myFunction() {
     header.classList.remove("sticky");
   }
 }
+
+
+
+$(".mng").on("click", function() {
+
+  $(".about").toggleClass('open');
+  $(".about .aboutxt ").animate({"opacity":"1"},2000);
+  $(".mng").off("click");
+});
