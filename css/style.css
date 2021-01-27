@@ -172,7 +172,7 @@ img {vertical-align: middle;}
     text-align: center;
 }
 .aboutxt {
-    padding: 5% 10%;
+    padding: 12% 10%;
     letter-spacing: .8px;
 }
 .open {
@@ -752,6 +752,28 @@ footer {
   /********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
 
 @media (max-width: 479px) {
+    .intro {
+        margin-top: 3.6rem;
+    }
+    /* home */
+    .des {
+        height: 22rem;
+        overflow: hidden;
+    }
+    .desinfo{
+        text-align: center;
+        left: 10%;
+        margin-top: 30%;
+        color: rgb(226, 226, 226);
+        font-size: large;
+    }
+   
+    .des2 {
+        height: 22rem;
+        overflow: hidden;
+    }
+ 
+    /* end home */
 
     .greeding {
         position: absolute;
@@ -804,7 +826,7 @@ footer {
         background-size: 26rem;
         overflow: hidden;
         margin:2.8% 3%;
-        width: 19.8rem;
+        width: 21.7rem;
         height: 16.8rem;
     }
     .menuimg {
@@ -831,13 +853,29 @@ footer {
         background-size: 26rem;
         overflow: hidden;
         margin:2.8% 3%;
-        width: 19.8rem;
+        width: 21.7rem;
         height: 16.8rem;
     }
     .mngimg {
         text-align: center;
         color: rgb(255, 255, 255);
         font-size: 1.2rem;
+    }
+
+    #contc {
+       color: #fff;
+       text-align: center;
+       font-size: 1.8rem;
+
+    }
+    .contcdtl {
+        background-color:  #f7c2c9;
+        overflow: hidden;
+        margin: 5% 0 5% 5%;
+        width: 90%;
+        height: 19rem;
+        border-radius: 4%;
+    }
     }
     
     /* end homepage */
@@ -849,17 +887,17 @@ footer {
     width: 100%;
     bottom: 0%;
     position: relative;
-    height: 8rem;
+    height: 4rem;
     background-color: #222222;
 }
     .footer-content {
         display:flex;
         justify-content: space-around;
-        font-size: large;
+        font-size: 1rem;
         color: #ffffff;
     }
     .address, .info {
-        margin-top: 1.8rem;
+        margin-top: .6em;
     }
     .address p {
         margin-bottom: 4px;

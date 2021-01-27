@@ -38,7 +38,7 @@ function myFunction() {
 
 $(".mng").on("click", function() {
 
-  $(".about").toggleClass('open');
-  $(".about .aboutxt ").animate({"opacity":"1"},2000);
+  $("#about").toggleClass('open');
+  $("#about .aboutxt ").animate({"opacity":"1"},2000);
   $(".mng").off("click");
 });
