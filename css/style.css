@@ -328,13 +328,17 @@ footer {
 
     .mng {
         
-        background-image: url("../image/12.jpg");
-        background-position: top;
-        background-size: 30rem;
-        overflow: hidden;
         width: 90%;
         height: 18rem;
         border-radius: 4%;
+    }
+    .mngimg {
+        background-image: url("../image/12.jpg");
+            background-position: top;
+            background-size: 30rem;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
     }
     .mng a{
         text-decoration: none;
@@ -697,13 +701,17 @@ footer {
 
     .mng {
         
-        background-image: url("../image/12.jpg");
-        background-position: top;
-        background-size: 30rem;
-        overflow: hidden;
         width: 90%;
         height: 18rem;
         border-radius: 4%;
+    }
+    .mngimg {
+        background-image: url("../image/12.jpg");
+            background-position: top;
+            background-size: 27rem;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
     }
     .mng a{
         text-decoration: none;
@@ -845,14 +853,18 @@ footer {
 
         .mng {
             
-            background-image: url("../image/12.jpg");
-            background-position: top;
-            background-size: 27rem;
-            overflow: hidden;
             margin: 5% 0 5% 5%;
             width: 90%;
             height: 18rem;
             border-radius: 4%;
+        }
+        .mngimg {
+            background-image: url("../image/12.jpg");
+                background-position: top;
+                background-size: 27rem;
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
         }
         .mng a{
             text-decoration: none;
@@ -995,14 +1007,18 @@ footer {
 
     .mng {
         
-        background-image: url("../image/12.jpg");
-        background-position: top;
-        background-size: 27rem;
-        overflow: hidden;
         margin: 5% 0 5% 5%;
         width: 90%;
         height: 18rem;
         border-radius: 4%;
+    }
+    .mngimg {
+        background-image: url("../image/12.jpg");
+            background-position: top;
+            background-size: 27rem;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
     }
     .mng a{
         text-decoration: none;
@@ -1133,15 +1149,18 @@ footer {
 
 
         .mng {
-            
-            background-image: url("../image/12.jpg");
-            background-position: top;
-            background-size: 27rem;
-            overflow: hidden;
             margin: 5% 0 5% 5%;
             width: 90%;
             height: 18rem;
             border-radius: 4%;
+        }
+        .mngimg{
+            background-image: url("../image/12.jpg");
+            background-position: top;
+            background-size: 27rem;
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
         }
         .mng a{
             text-decoration: none;
